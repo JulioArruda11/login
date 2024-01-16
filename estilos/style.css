@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+}
+
+main{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    
+}
+
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    width: 250px;
+    height: 520px;
+    border-radius: 20px;
+    overflow: hidden;
+
+    transform: translate(-50%,-50%);
+}
+
+.pai{
+    background-image: url(../imagens/inc.png);
+    width: 100%;
+    height: 50%;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+
+.filho{
+    display: block;
+    background-color: rgb(145, 0, 145);
+    padding: 10px;
+    height: calc(100%);
+}
+
+div.filho > h1{
+    text-align: center;
+    margin-bottom: 5px;
+    text-shadow: 0px 0px 2px black;
+    color: white;
+}
+
+div.filho > p{
+    text-align: center;
+    color: white;
+    padding: 5px;
+    font-size: 1em;
+    text-shadow: 0px 0px 2px black;
+}
+
+div#login{
+    background-color: aquamarine;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 35px;
+}
+
+div#login> label{
+    display: none;
+}
+
+div#login > input{
+    border-radius: 15px;
+    position: relative;
+    top: -7px;
+    left: px ;
+    padding: 9px;
+    border: none;
+    margin-left: 5px;
+
+}
+
+div#login > i{
+    padding: 5px;
+    width: 18px;
+    padding-left: 10px;
+}
+
+div#pass{
+    margin-top: 5px;
+    background-color: aquamarine;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 35px;
+}
+
+div#pass > label{
+    display: none;
+}
+
+div#pass > i{
+    padding: 5px;
+    width: 18px;
+    padding-left: 10px;
+    
+}
+
+div#pass > input{
+    border-radius: 15px;
+    position: relative;
+    top: -7px;
+    left: px ;
+    padding: 9px;
+    border: none;
+    margin-left: 5px;
+}
+
+form > input[type=submit]{
+    border-radius: 15px;
+    border: none;
+    padding: 2px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: aquamarine;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#botao{
+    background-color: aquamarine;
+    color: black;
+    font-size: 1.5em;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    margin-top: 5px;
+    padding: 2px;
+}
