@@ -9,7 +9,7 @@
 body, html{
     height: 100%;
     width: 100%;
-    background-color: lightblue;
+    background-color: rgb(209, 101, 94);
 }
 
 main{
@@ -131,14 +131,14 @@ form > input[type=submit]{
     background-color: aquamarine;
     color: black;
     font-weight: bolder;
-    font-size: 1.5em;
+    font-size: 1.3em;
     cursor: pointer;
 }
 
 #botao{
     background-color: aquamarine;
     color: black;
-    font-size: 1.5em;
+    font-size: 1.3em;
     text-decoration: none;
     cursor: pointer;
     width: 100%;
